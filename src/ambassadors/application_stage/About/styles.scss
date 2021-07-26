@@ -1,0 +1,145 @@
+.aboutAmbassador {
+    background: #FFFAF8;
+    text-align: center;
+    color: #031A2F;
+    padding-bottom: 3.5rem;
+    .aboutAmbassadorHeader {
+        font: normal normal 400 50px/70px Poppins;
+        text-transform: capitalize;
+    }
+    >p {
+        font: normal normal normal 18px/35px Poppins;
+    }
+    .aboutAmbassadorHeaderDeadline {
+        font: normal normal 600 16px/40px Poppins;
+    }
+    .aboutAmbassadorImageSection {
+        padding-top: 2rem;
+        .scrollInLeft {
+            position: relative;
+            animation-name: slideInLeft;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+        }
+        .scrollInRight {
+            position: relative;
+            animation-name: slideInRight;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+        }
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        .aboutAmbassadorImageSectionLeft {
+            display: flex;
+            padding: 0 6rem 0 1rem;
+            .aboutAmbassadorImageSectionLeftFirst {
+                img {
+                    width: 100%;
+                }
+            }
+            .aboutAmbassadorImageSectionLeftSecond {
+                position: relative;
+                left: 20px;
+                top: 40px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .aboutAmbassadorImageSectionCenter {
+            img {
+                width: 100%;
+            }
+        }
+        .aboutAmbassadorImageSectionRight {
+            display: flex;
+            padding: 0 2rem 0 6rem;
+            .aboutAmbassadorImageSectionRightFirst {
+                position: relative;
+                right: 20px;
+                top: 40px;
+                img {
+                    width: 100%;
+                }
+            }
+            .aboutAmbassadorImageSectionRightSecond {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 812px) {
+    .aboutAmbassador {
+        padding-bottom: 3.125px;
+        .aboutAmbassadorImageSection {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            .aboutAmbassadorImageSectionLeft {
+                margin-top: 50px;
+                display: flex;
+                .aboutAmbassadorImageSectionLeftFirst {
+                    img {
+                        width: 100%;
+                    }
+                }
+                .aboutAmbassadorImageSectionLeftSecond {
+                    position: relative;
+                    left: 20px;
+                    top: 40px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .aboutAmbassadorImageSectionCenter {
+                margin-top: 60px;
+                img {
+                    width: 100%;
+                }
+            }
+            .aboutAmbassadorImageSectionRight {
+                display: none;
+            }
+        }
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        left: -10rem;
+        opacity: 0;
+    }
+    50% {
+        left: 2rem;
+        opacity: 1;
+    }
+    100% {
+        left: 0rem;
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        right: -10rem;
+        opacity: 0;
+    }
+    50% {
+        right: 2rem;
+        opacity: 1;
+    }
+    100% {
+        right: 0rem;
+        opacity: 1;
+    }
+}

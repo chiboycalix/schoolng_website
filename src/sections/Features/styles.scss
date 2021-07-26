@@ -1,0 +1,935 @@
+.featuresWrapper{
+  width:100%;
+  text-align: center;
+  padding: 5rem 0;
+
+  .featuresHeader{
+
+    h1{
+      font-size: 3rem;
+      font-weight: 400;
+      margin-bottom: .5rem;
+    }
+    p{
+      font-size: 1rem;
+      font-weight: 400;
+      width: 45%;
+      margin-left: 27.5%;
+      line-height: 35px;
+    }
+  }
+
+  .featuresContent{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 3rem;
+
+    .featuresContentLeft{
+      flex-basis: 30%;
+
+      .featuresCard{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end;
+        font-size: 1rem;
+        width:80%;
+        margin-bottom: 5rem;
+        span{
+          text-align: right;
+          display:inline-block;
+          padding: 1rem 1.5rem;
+          color: #ffffff;
+          background-color: #EB5933;
+          border-radius: 5px;
+          margin-bottom: 1rem;
+          display: inline-block;
+          font-weight: bold;
+          font-size: .8rem;
+        }
+        p{
+          text-align: right;
+          line-height: 35px;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .scrollInLeft{
+      position: relative;
+      animation-name: slideInLeft;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+
+    .featuresContentCenter{
+      flex-basis:40%;
+      display: flex;
+      align-items: center;
+      img{
+        width: 80%;
+      }
+    }
+
+    .featuresContentRight{
+      flex-basis: 30%;
+      
+
+      .featuresCard{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        font-size: 1rem;
+        width:80%;
+        margin-bottom: 5rem;
+        span{
+          text-align: left;
+          display:inline-block;
+          padding: 1rem 1.5rem;
+          color: #ffffff;
+          background-color: #EB5933;
+          border-radius: 5px;
+          margin-bottom: 1rem;
+          display: inline-block;
+          font-weight: bold;
+          font-size: .8rem;
+        }
+        p{
+          text-align: left;
+          line-height: 35px;
+          font-weight: 400;
+        }
+      }
+    }
+    .scrollInRight{
+      position: relative;
+      animation-name: slideInRight;
+      animation-duration: 2s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  .appDownloadWrapper{
+    margin-top: 10rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+    a.btnGooglePlay{
+      text-decoration: none;
+      border: 2px solid #000000;
+      padding: .5rem 2rem;
+      border-radius: 5px;
+      color: #000000;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      margin-right: 1rem;
+
+      &:hover{
+        color: #fff;
+        background-color: #000;
+      }
+
+      img{
+        margin-right: 1rem;
+        transition:all .1s linear;
+      }
+      .textWrapper{
+        p{
+          font-size: .7rem;
+          text-align: left;
+        }
+      }
+
+      &:hover img{
+        margin-right: 1.5rem;
+      }
+    }
+
+    a.btnAppleStore{
+      text-decoration: none;
+      border: 2px solid #000000;
+      padding: .8rem 2rem;
+      border-radius: 5px;
+      color: #000000;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+
+      .textWrapper{
+        p{
+          font-size: .7rem;
+          text-align: left;
+        }
+      }
+      svg{
+        width: 30px;
+        height: 30px;
+        margin-right: .5rem;
+        transition:all .1s linear;
+      }
+
+      &:hover{
+        color: #fff;
+        background-color: #000;
+      }
+
+      &:hover svg{
+        margin-right: 1.2rem;
+        color: #fff;
+      }
+    }
+
+  }
+}
+
+@keyframes slideInLeft {
+    0% {
+      left: -10rem;
+      opacity: 0;
+    }
+    50% {
+      left: 2rem;
+      opacity: 1;
+    }
+    100% {
+      left: 0rem;
+      opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+  0% {
+    right: -10rem;
+    opacity: 0;
+  }
+  50% {
+    right: 2rem;
+    opacity: 1;
+  }
+  100% {
+    right: 0rem;
+    opacity: 1;
+  }
+}
+
+// max-width: 1024px
+@media (max-width:1024px){
+  .featuresWrapper{
+    width:100%;
+    text-align: center;
+    padding: 5rem 0;
+  
+    .featuresHeader{
+  
+      h1{
+        font-size: 3rem;
+        font-weight: 400;
+        margin-bottom: .5rem;
+      }
+      p{
+        font-size: 1rem;
+        font-weight: 400;
+        width: 70%;
+        margin-left: 15%;
+        line-height: 35px;
+      }
+    }
+  
+    .featuresContent{
+      display: flex;
+      justify-content: space-between;
+      width: 95%;
+      margin-left: 5%;
+      margin-top: 3rem;
+  
+      .featuresContentLeft{
+        flex-basis: 30%;
+        .featuresCard{
+          display: flex;
+          flex-direction: column;
+          align-items:flex-end;
+          font-size: 1rem;
+          width:80%;
+          margin-bottom: 5rem;
+          span{
+            text-align: right;
+            display:inline-block;
+            padding: 1rem 1.5rem;
+            color: #ffffff;
+            background-color: #EB5933;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            display: inline-block;
+            font-weight: bold;
+            font-size: .8rem;
+          }
+          p{
+            text-align: right;
+            line-height: 35px;
+            font-weight: 400;
+          }
+        }
+      }
+  
+      .featuresContentCenter{
+        flex-basis:40%;
+        display: flex;
+        align-items: center;
+        img{
+          width: 100%;
+          margin-left: -8%;
+        }
+      }
+  
+      .featuresContentRight{
+        flex-basis: 30%;
+  
+        .featuresCard{
+          display: flex;
+          flex-direction: column;
+          align-items:flex-start;
+          font-size: 1rem;
+          width:80%;
+          margin-bottom: 5rem;
+          span{
+            text-align: left;
+            display:inline-block;
+            padding: 1rem 1.5rem;
+            color: #ffffff;
+            background-color: #EB5933;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            display: inline-block;
+            font-weight: bold;
+            font-size: .8rem;
+          }
+          p{
+            text-align: left;
+            line-height: 35px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  
+    .appDownloadWrapper{
+      margin-top: 5rem;
+      display: flex;
+      justify-content:center;
+      align-items:center;
+  
+      a.btnGooglePlay{
+        text-decoration: none;
+        border: 2px solid #000000;
+        padding: .5rem 2rem;
+        border-radius: 5px;
+        color: #000000;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+  
+        &:hover{
+          color: #fff;
+          background-color: #000;
+        }
+  
+        img{
+          margin-right: 1rem;
+          transition:all .1s linear;
+        }
+        .textWrapper{
+          p{
+            font-size: .7rem;
+            text-align: left;
+          }
+        }
+  
+        &:hover img{
+          margin-right: 1.5rem;
+        }
+      }
+  
+      a.btnAppleStore{
+        text-decoration: none;
+        border: 2px solid #000000;
+        padding: .8rem 2rem;
+        border-radius: 5px;
+        color: #000000;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+  
+        .textWrapper{
+          p{
+            font-size: .7rem;
+            text-align: left;
+          }
+        }
+        svg{
+          width: 30px;
+          height: 30px;
+          margin-right: .5rem;
+          transition:all .1s linear;
+        }
+  
+        &:hover{
+          color: #fff;
+          background-color: #000;
+        }
+  
+        &:hover svg{
+          margin-right: 1.2rem;
+          color: #fff;
+        }
+      }
+  
+    }
+  }
+}
+// max-width: 600px
+@media (max-width:600px){
+  .featuresWrapper{
+    width:100%;
+    text-align: center;
+    padding: 5rem 0;
+  
+    .featuresHeader{
+  
+      h1{
+        font-size: 3rem;
+        font-weight: 400;
+        margin-bottom: .5rem;
+      }
+      p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        width: 100%;
+        margin-left: 0%;
+        line-height: 45px;
+      }
+    }
+  
+    .featuresContent{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 80%;
+      margin-left: 15%;
+      margin-top: 3rem;
+      text-align: center;
+  
+      .featuresContentLeft{
+        flex-basis: 100%;
+        .featuresCard{
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          text-align: center;
+          font-size: 1.5rem;
+          width:100%;
+          margin-left: -5%;
+          margin-bottom: 5rem;
+          span{
+            text-align: right;
+            display:inline-block;
+            padding: 1rem 1.5rem;
+            color: #ffffff;
+            background-color: #EB5933;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 1.5rem;
+          }
+          p{
+            text-align: center;
+            line-height: 45px;
+            font-weight: 400;
+          }
+        }
+      }
+  
+      .featuresContentCenter{
+        flex-basis:100%;
+        display: flex;
+        align-items: center;
+        order: 3;
+        img{
+          width: 100%;
+        }
+      }
+  
+      .featuresContentRight{
+        flex-basis: 100%;
+  
+        .featuresCard{
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          font-size: 1.5rem;
+          width:100%;
+          margin-left: -5%;
+          margin-bottom: 5rem;
+          span{
+            text-align: center;
+            display:inline-block;
+            padding: 1rem 1.5rem;
+            color: #ffffff;
+            background-color: #EB5933;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 1.5rem;
+          }
+          p{
+            text-align: center;
+            line-height: 45px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  
+    .appDownloadWrapper{
+      margin-top: 10rem;
+      display: flex;
+      justify-content:center;
+      align-items:center;
+  
+      a.btnGooglePlay{
+        text-decoration: none;
+        border: 2px solid #000000;
+        padding: .5rem 2rem;
+        border-radius: 5px;
+        color: #000000;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+  
+        &:hover{
+          color: #fff;
+          background-color: #000;
+        }
+  
+        img{
+          margin-right: 1rem;
+          transition:all .1s linear;
+        }
+        .textWrapper{
+          p{
+            font-size: .7rem;
+            text-align: left;
+          }
+        }
+  
+        &:hover img{
+          margin-right: 1.5rem;
+        }
+      }
+  
+      a.btnAppleStore{
+        text-decoration: none;
+        border: 2px solid #000000;
+        padding: .8rem 2rem;
+        border-radius: 5px;
+        color: #000000;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+  
+        .textWrapper{
+          p{
+            font-size: .7rem;
+            text-align: left;
+          }
+        }
+        svg{
+          width: 30px;
+          height: 30px;
+          margin-right: .5rem;
+          transition:all .1s linear;
+        }
+  
+        &:hover{
+          color: #fff;
+          background-color: #000;
+        }
+  
+        &:hover svg{
+          margin-right: 1.2rem;
+          color: #fff;
+        }
+      }
+  
+    }
+  }
+}
+// max-width: 414px
+@media (max-width:414px){
+  .featuresWrapper{
+    width:100%;
+    text-align: center;
+    padding: 5rem 0;
+  
+    .featuresHeader{
+  
+      h1{
+        font-size: 3rem;
+        font-weight: 400;
+        margin-bottom: .5rem;
+      }
+      p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        width: 100%;
+        margin-left: 0%;
+        line-height: 45px;
+      }
+    }
+  
+    .featuresContent{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 80%;
+      margin-left: 15%;
+      margin-top: 3rem;
+      text-align: center;
+  
+      .featuresContentLeft{
+        flex-basis: 100%;
+        .featuresCard{
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          text-align: center;
+          font-size: 1.5rem;
+          width:100%;
+          margin-left: -5%;
+          margin-bottom: 5rem;
+          span{
+            text-align: right;
+            display:inline-block;
+            padding: 1rem 1.5rem;
+            color: #ffffff;
+            background-color: #EB5933;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 1.5rem;
+          }
+          p{
+            text-align: center;
+            line-height: 45px;
+            font-weight: 400;
+          }
+        }
+      }
+  
+      .featuresContentCenter{
+        flex-basis:100%;
+        display: flex;
+        align-items: center;
+        order: 3;
+        img{
+          width: 100%;
+        }
+      }
+  
+      .featuresContentRight{
+        flex-basis: 100%;
+  
+        .featuresCard{
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          font-size: 1.5rem;
+          width:100%;
+          margin-left: -5%;
+          margin-bottom: 5rem;
+          span{
+            text-align: center;
+            display:inline-block;
+            padding: 1rem 1.5rem;
+            color: #ffffff;
+            background-color: #EB5933;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 1.5rem;
+          }
+          p{
+            text-align: center;
+            line-height: 45px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  
+    .appDownloadWrapper{
+      margin-top: 10rem;
+      display: flex;
+      justify-content:center;
+      align-items:center;
+  
+      a.btnGooglePlay{
+        text-decoration: none;
+        border: 2px solid #000000;
+        padding: .5rem 2rem;
+        border-radius: 5px;
+        color: #000000;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+  
+        &:hover{
+          color: #fff;
+          background-color: #000;
+        }
+  
+        img{
+          margin-right: 1rem;
+          transition:all .1s linear;
+        }
+        .textWrapper{
+          p{
+            font-size: .7rem;
+            text-align: left;
+          }
+        }
+  
+        &:hover img{
+          margin-right: 1.5rem;
+        }
+      }
+  
+      a.btnAppleStore{
+        text-decoration: none;
+        border: 2px solid #000000;
+        padding: .8rem 2rem;
+        border-radius: 5px;
+        color: #000000;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+  
+        .textWrapper{
+          p{
+            font-size: .7rem;
+            text-align: left;
+          }
+        }
+        svg{
+          width: 30px;
+          height: 30px;
+          margin-right: .5rem;
+          transition:all .1s linear;
+        }
+  
+        &:hover{
+          color: #fff;
+          background-color: #000;
+        }
+  
+        &:hover svg{
+          margin-right: 1.2rem;
+          color: #fff;
+        }
+      }
+  
+    }
+  }
+}
+// max-width: 375px
+@media (max-width: 375px){
+  .featuresWrapper{
+    width:100%;
+    text-align: center;
+    padding: 5rem 0;
+  
+    .featuresHeader{
+  
+      h1{
+        font-size: 4rem;
+        font-weight: 400;
+        margin-bottom: .5rem;
+      }
+      p{
+        font-size: 2rem;
+        font-weight: 400;
+        width: 80%;
+        margin-left: 10%;
+        line-height: 55px;
+      }
+    }
+  
+    .featuresContent{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 80%;
+      margin-left: 15%;
+      margin-top: 3rem;
+      text-align: center;
+  
+      .featuresContentLeft{
+        flex-basis: 100%;
+        .featuresCard{
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          text-align: center;
+          font-size: 2rem;
+          width:100%;
+          margin-left: -5%;
+          margin-bottom: 5rem;
+          span{
+            text-align: right;
+            display:inline-block;
+            padding: 1rem 1.5rem;
+            color: #ffffff;
+            background-color: #EB5933;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 2rem;
+          }
+          p{
+            text-align: center;
+            line-height: 55px;
+            font-weight: 400;
+          }
+        }
+      }
+  
+      .featuresContentCenter{
+        flex-basis:100%;
+        display: flex;
+        align-items: center;
+        order: 3;
+        img{
+          width: 100%;
+        }
+      }
+  
+      .featuresContentRight{
+        flex-basis: 100%;
+  
+        .featuresCard{
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          font-size: 2rem;
+          width:100%;
+          margin-left: -5%;
+          margin-bottom: 5rem;
+          span{
+            text-align: center;
+            display:inline-block;
+            padding: 1rem 1.5rem;
+            color: #ffffff;
+            background-color: #EB5933;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 2rem;
+          }
+          p{
+            text-align: center;
+            line-height: 55px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  
+    .appDownloadWrapper{
+      margin-top: 10rem;
+      display: flex;
+      justify-content:center;
+      align-items:center;
+  
+      a.btnGooglePlay{
+        text-decoration: none;
+        border: 2px solid #000000;
+        padding: 1.2rem 3rem;
+        border-radius: 5px;
+        color: #000000;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+  
+        &:hover{
+          color: #fff;
+          background-color: #000;
+        }
+  
+        img{
+          margin-right: 1rem;
+          transition:all .1s linear;
+          height: 50px;
+        }
+        .textWrapper{
+          p{
+            font-size: 1.2rem;
+            text-align: left;
+          }
+        }
+  
+        &:hover img{
+          margin-right: 1.5rem;
+        }
+      }
+  
+      a.btnAppleStore{
+        text-decoration: none;
+        border: 2px solid #000000;
+        padding: 1.9rem 3rem;
+        border-radius: 5px;
+        color: #000000;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+  
+        .textWrapper{
+          p{
+            font-size: .7rem;
+            text-align: left;
+          }
+        }
+        svg{
+          width: 60px;
+          height: 60px;
+          margin-right: .5rem;
+          transition:all .1s linear;
+        }
+  
+        &:hover{
+          color: #fff;
+          background-color: #000;
+        }
+  
+        &:hover svg{
+          margin-right: 1.2rem;
+          color: #fff;
+        }
+      }
+  
+    }
+  }
+}

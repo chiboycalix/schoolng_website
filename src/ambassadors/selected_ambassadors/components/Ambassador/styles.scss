@@ -1,0 +1,393 @@
+
+    .ambassador{
+      flex: 1;
+      
+      .ambassadorPhoto{
+        cursor: pointer;
+        position: relative;
+        border-radius: 5px;
+
+        .overlay{
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(0,0,0,0.5);
+          z-index: 1;
+          display: none;
+          border-radius: 20px;
+
+          p{
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+          }
+
+        }
+        img{
+          width: 355px;
+          height: 400px;
+          object-fit: cover;
+          border-radius: 20px;
+        }
+      }
+
+      .ambassadorPhoto:hover .overlay{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+
+      .ambassadorDetails{
+        p.username{
+          color: #EB5933;
+          line-height: 35px;
+          font-size: 15px;
+          font-weight: 200;
+        }
+        p.fullname{
+          color: #031A2F;
+          font-size: 16px;
+          font-weight: bold;
+          line-height: 35px;
+        }
+        p.department{
+          color: #031A2F;
+          font-size: 16px;
+          line-height: 35px;
+        }
+      }
+    }
+
+    //1440px
+    @media (max-width:1440px){
+      .ambassador{
+        flex: 1;
+        
+        .ambassadorPhoto{
+          cursor: pointer;
+          position: relative;
+          border-radius: 5px;
+  
+          .overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1;
+            display: none;
+            border-radius: 20px;
+  
+            p{
+              text-decoration: none;
+              color: #fff;
+              font-size: 18px;
+            }
+  
+          }
+          img{
+            width: 405px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 20px;
+          }
+        }
+  
+        .ambassadorPhoto:hover .overlay{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+        }
+  
+        .ambassadorDetails{
+          p.username{
+            color: #EB5933;
+            line-height: 35px;
+            font-size: 15px;
+            font-weight: 200;
+          }
+          p.fullname{
+            color: #031A2F;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 35px;
+          }
+          p.department{
+            color: #031A2F;
+            font-size: 16px;
+            line-height: 35px;
+          }
+        }
+      }
+    }
+
+    // 1280px
+    @media (max-width:1280px){
+      .ambassador{
+        flex: 1;
+        
+        .ambassadorPhoto{
+          cursor: pointer;
+          position: relative;
+          border-radius: 5px;
+  
+          .overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1;
+            display: none;
+            border-radius: 20px;
+  
+            p{
+              text-decoration: none;
+              color: #fff;
+              font-size: 18px;
+            }
+  
+          }
+          img{
+            width: 550px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 20px;
+          }
+        }
+  
+        .ambassadorPhoto:hover .overlay{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+        }
+  
+        .ambassadorDetails{
+          p.username{
+            color: #EB5933;
+            line-height: 35px;
+            font-size: 15px;
+            font-weight: 200;
+          }
+          p.fullname{
+            color: #031A2F;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 35px;
+          }
+          p.department{
+            color: #031A2F;
+            font-size: 16px;
+            line-height: 35px;
+          }
+        }
+      }
+    }
+
+    // 1024px
+    @media (max-width:1024px){
+      .ambassador{
+        flex: 1;
+        
+        .ambassadorPhoto{
+          cursor: pointer;
+          position: relative;
+          border-radius: 5px;
+  
+          .overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1;
+            display: none;
+            border-radius: 20px;
+  
+            p{
+              text-decoration: none;
+              color: #fff;
+              font-size: 18px;
+            }
+  
+          }
+          img{
+            width: 500px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 20px;
+          }
+        }
+  
+        .ambassadorPhoto:hover .overlay{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+        }
+  
+        .ambassadorDetails{
+          p.username{
+            color: #EB5933;
+            line-height: 35px;
+            font-size: 15px;
+            font-weight: 200;
+          }
+          p.fullname{
+            color: #031A2F;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 35px;
+          }
+          p.department{
+            color: #031A2F;
+            font-size: 16px;
+            line-height: 35px;
+          }
+        }
+      }
+    }
+
+     // 768px
+     @media (max-width:768px){
+      .ambassador{
+        flex: 1;
+        
+        .ambassadorPhoto{
+          cursor: pointer;
+          position: relative;
+          border-radius: 5px;
+  
+          .overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1;
+            display: none;
+            border-radius: 20px;
+  
+            p{
+              text-decoration: none;
+              color: #fff;
+              font-size: 18px;
+            }
+  
+          }
+          img{
+            width: 370px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 20px;
+          }
+        }
+  
+        .ambassadorPhoto:hover .overlay{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+        }
+  
+        .ambassadorDetails{
+          p.username{
+            color: #EB5933;
+            line-height: 35px;
+            font-size: 15px;
+            font-weight: 200;
+          }
+          p.fullname{
+            color: #031A2F;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 35px;
+          }
+          p.department{
+            color: #031A2F;
+            font-size: 16px;
+            line-height: 35px;
+          }
+        }
+      }
+    }
+
+    // 768px
+    @media (max-width: 414px){
+      .ambassador{
+        flex: 1;
+        
+        .ambassadorPhoto{
+          cursor: pointer;
+          position: relative;
+          border-radius: 5px;
+  
+          .overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1;
+            display: none;
+            border-radius: 20px;
+  
+            p{
+              text-decoration: none;
+              color: #fff;
+              font-size: 18px;
+            }
+  
+          }
+          img{
+            width: 930px;
+            height: 800px;
+            object-fit: cover;
+            border-radius: 20px;
+          }
+        }
+  
+        .ambassadorPhoto:hover .overlay{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+        }
+  
+        .ambassadorDetails{
+          p.username{
+            color: #EB5933;
+            line-height: 70px;
+            font-size: 30px;
+            font-weight: 200;
+          }
+          p.fullname{
+            color: #031A2F;
+            font-size: 32px;
+            font-weight: bold;
+            line-height: 70px;
+          }
+          p.department{
+            color: #031A2F;
+            font-size: 32px;
+            line-height: 70px;
+          }
+        }
+      }
+    }

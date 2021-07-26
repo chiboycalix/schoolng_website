@@ -1,0 +1,213 @@
+.headersWrapper{
+  padding: 0 5.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+
+  .headersLeft{
+    flex-basis: 50%;
+
+    h1{
+      font-size: 45px;
+      line-height: 70px;
+      margin-bottom: 1rem;
+      span{
+        color: #EB5933;
+      }
+    }
+
+    p{
+      font-size: 18px;
+      line-height: 35px;
+    }
+
+    .circlesWrapper{
+      display: flex;
+      margin-left: 250px;
+      margin-top: 50px;
+    }
+  }
+
+  .headersRight{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    img{
+      width: 500px;
+    }
+
+  }
+}
+
+    //1440px
+    @media (max-width:1440px){
+      .headersWrapper{
+        padding: 0 5.5rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+      
+        .headersLeft{
+          flex-basis: 60%;
+      
+          h1{
+            font-size: 45px;
+            line-height: 70px;
+            margin-bottom: 1rem;
+            span{
+              color: #EB5933;
+            }
+          }
+      
+          p{
+            font-size: 18px;
+            line-height: 35px;
+          }
+      
+          .circlesWrapper{
+            display: flex;
+            margin-left: 250px;
+            margin-top: 50px;
+          }
+        }
+      
+        .headersRight{
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          margin-left: 5rem;
+          img{
+            width: 500px;
+          }
+        }
+      }
+    }
+
+    @media (max-width:1280px){
+      .headersWrapper{
+        padding: 0 5.5rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+      
+        .headersLeft{
+          flex-basis: 60%;
+      
+          h1{
+            font-size: 45px;
+            line-height: 70px;
+            margin-bottom: 1rem;
+            span{
+              color: #EB5933;
+            }
+          }
+      
+          p{
+            font-size: 18px;
+            line-height: 35px;
+          }
+      
+          .circlesWrapper{
+            display: flex;
+            margin-left: 200px;
+            margin-top: 0px;
+          }
+        }
+      
+        .headersRight{
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          margin-left: 5rem;
+          img{
+            width: 500px;
+          }
+        }
+      }
+    }
+
+    @media (max-width:1024px){
+      .headersWrapper{
+        padding: 0 5.5rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+      
+        .headersLeft{
+          flex-basis: 60%;
+      
+          h1{
+            font-size: 45px;
+            line-height: 70px;
+            margin-bottom: 1rem;
+            span{
+              color: #EB5933;
+            }
+          }
+      
+          p{
+            font-size: 18px;
+            line-height: 35px;
+          }
+      
+          .circlesWrapper{
+            display: flex;
+            margin-left: 100px;
+            margin-top: -100px;
+          }
+        }
+      
+        .headersRight{
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          margin-left: 5rem;
+          img{
+            width: 500px;
+          }
+        }
+      }
+    }
+
+    @media (max-width:768px){
+      .headersWrapper{
+        padding: 0 5.5rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+      
+        .headersLeft{
+          flex-basis: 60%;
+      
+          h1{
+            font-size: 45px;
+            line-height: 70px;
+            margin-bottom: 1rem;
+            span{
+              color: #EB5933;
+            }
+          }
+      
+          p{
+            font-size: 18px;
+            line-height: 35px;
+          }
+      
+          .circlesWrapper{
+            display: flex;
+            margin-left: 0px;
+            margin-top: -200px;
+          }
+        }
+      
+        .headersRight{
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          margin-left: 5rem;
+          img{
+            width: 400px;
+          }
+        }
+      }
+    }

@@ -1,0 +1,123 @@
+.schoolngBenefitsWrapper {
+    background: #FFFAF8 0% 0% no-repeat padding-box;
+    color: #031A2F;
+    display: flex;
+    justify-content: space-between;
+    // padding: 4rem 4rem 7.5rem 4rem;
+    padding: 4rem 7rem 7.5rem 8rem;
+    .scrollInLeft {
+        position: relative;
+        animation-name: slideInLeft;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+    .scrollInRight {
+        position: relative;
+        animation-name: slideInRight;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+    .schoolngBenefitsWrapperRight {
+        padding: 60px 0 0 30px;
+        .schoolngBenefitsWrapperRightTitle {
+            font-size: 2rem;
+            font-weight: 400;
+            width: 85%
+        }
+        .schoolngBenefitsWrapperRightSubTitle {
+            font-size: 1rem;
+            width: 80%;
+        }
+        .schoolngBenefitsWrapperRightContentRow {
+            display: flex;
+            margin-top: .5rem;
+            .schoolngBenefitsWrapperRightContentRowDotWrapper {
+                width: 10px;
+                height: 10px;
+                background: #EB5933 0% 0% no-repeat padding-box;
+                border-radius: 5px;
+                margin-right: 10px;
+                margin-top: .6rem;
+            }
+            .schoolngBenefitsText {
+                font-size: 1rem;
+                width: 100%;
+                line-height: 30px;
+
+                span  {
+                    font-style: italic;
+                }
+            }
+        }
+        .schoolngBenefitsButtonWrapper {
+            margin-top: 2.4rem;
+            .schoolngBenefitsButton {
+                background: #031A2F 0% 0% no-repeat padding-box;
+                box-shadow: 0px 3px 6px #00000029;
+                border-radius: 5px;
+                color: #FFFDFC;
+                padding: .75rem 3.7rem;
+                text-decoration: none;
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .schoolngBenefitsWrapperLeft {
+        padding-left: 50px;
+        img {
+            position: relative;
+            top: 40px;
+            right: 40px;
+            width: 474px;
+            height: 459px;
+        }
+    }
+}
+
+@media (max-width: 812px) {
+    .schoolngBenefitsWrapper {
+        padding-top: 0px;
+        background: #FFFAF8 0% 0% no-repeat padding-box;
+        color: #031A2F;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // padding: 4rem 4rem 7.5rem 4rem;
+        .schoolngBenefitsWrapperLeft {
+            display: none;
+        }
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        left: -10rem;
+        opacity: 0;
+    }
+    50% {
+        left: 2rem;
+        opacity: 1;
+    }
+    100% {
+        left: 0rem;
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        right: -10rem;
+        opacity: 0;
+    }
+    50% {
+        right: 2rem;
+        opacity: 1;
+    }
+    100% {
+        right: 0rem;
+        opacity: 1;
+    }
+}

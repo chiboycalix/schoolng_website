@@ -1,0 +1,32 @@
+.circlesPrimary{
+  position: relative;
+  background: rgb(30, 247, 1);
+
+  .circlePrimaryOne{
+    width: 118.18px;
+    height: 118.18px;
+    border-radius:50%;
+    border: 20px solid #EB59332E;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+  }
+  .circlePrimaryTwo{
+    width: 74.64px;
+    height: 74.64px;
+    border-radius:50%;
+    border: 15px solid #EB59332E;
+    position: absolute;
+    top: .5rem;
+    left: 9.6rem;
+  }
+  .circlePrimaryThree{
+    width: 145.73px;
+    height: 145.73px;
+    border-radius:50%;
+    border: 20px solid #EB59332E;
+    position: absolute;
+    top: 7rem;
+    left: 10rem;
+  }
+}

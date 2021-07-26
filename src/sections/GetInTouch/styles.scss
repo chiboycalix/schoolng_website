@@ -1,0 +1,383 @@
+.getInTouchWrapper{
+  background-color:#EB59330A;
+  text-align:center;
+  padding: 5rem 0;
+  .getInTouchHeader{
+
+    h1{
+      font-size: 3rem;
+      font-weight: 400;
+      margin-bottom: .5rem;
+    }
+    p{
+      font-size: 1rem;
+      font-weight: 400;
+    }
+  }
+  .getInTouchFormWrapper{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3rem;
+
+    form{
+      width:100%;
+
+      .inputWrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin-bottom: 2rem;
+
+        input{
+          border: 1px solid transparent;
+          border-bottom: 1px solid black;
+          width: 50%;
+          padding: 1rem .0rem;
+          outline:none;
+          background-color:transparent;
+          font-size: 1rem;
+          font-family: 'Poppins', sans-serif;
+          
+
+          &::placeholder{
+            color: #000000;
+            font-weight: 400;
+          }
+          &:not(:last-child){
+            margin-right: 2rem;
+          }
+        }
+      }
+
+      .textAreaWrapper{
+        width: 100%;
+
+        input{
+          border: 1px solid transparent;
+          border-bottom: 1px solid black;
+          width: 100%;
+          padding: 1rem .0rem;
+          outline:none;
+          background-color:transparent;
+          font-size: 1rem;
+          font-family: 'Poppins', sans-serif;
+          
+
+          &::placeholder{
+            color: #000000;
+            font-weight: 400;
+          }
+        }
+      }
+
+      .submitBtnWrapper{
+        margin-top: 3rem;
+        a{
+          padding: 1rem 3rem;
+          text-decoration: none;
+          background-color: #EB5933;
+          color: #FFFFFF;
+          border-radius: 5px;
+          font-size: 1rem;
+        }
+        span{
+          display: inline-block;
+          margin: 0 2rem;
+          color: #EB5933;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width:1024px){
+  .getInTouchWrapper{
+    background-color:#EB59330A;
+    text-align:center;
+    padding: 5rem 0;
+    .getInTouchHeader{
+  
+      h1{
+        font-size: 3rem;
+        font-weight: 400;
+        margin-bottom: .5rem;
+      }
+      p{
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+    .getInTouchFormWrapper{
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 3rem;
+  
+      form{
+        width:100%;
+  
+        .inputWrapper{
+          display: flex;
+          justify-content: space-between;
+          align-items:center;
+          margin-bottom: 2rem;
+  
+          input{
+            border: 1px solid transparent;
+            border-bottom: 1px solid black;
+            width: 50%;
+            padding: 1rem .0rem;
+            outline:none;
+            background-color:transparent;
+            font-size: 1rem;
+            font-family: 'Poppins', sans-serif;
+            
+  
+            &::placeholder{
+              color: #000000;
+              font-weight: 400;
+            }
+            &:not(:last-child){
+              margin-right: 2rem;
+            }
+          }
+        }
+  
+        .textAreaWrapper{
+          width: 100%;
+  
+          input{
+            border: 1px solid transparent;
+            border-bottom: 1px solid black;
+            width: 100%;
+            padding: 1rem .0rem;
+            outline:none;
+            background-color:transparent;
+            font-size: 1rem;
+            font-family: 'Poppins', sans-serif;
+            
+  
+            &::placeholder{
+              color: #000000;
+              font-weight: 400;
+            }
+          }
+        }
+  
+        .submitBtnWrapper{
+          margin-top: 3rem;
+          a{
+            padding: 1rem 3rem;
+            text-decoration: none;
+            background-color: #EB5933;
+            color: #FFFFFF;
+            border-radius: 5px;
+            font-size: 1rem;
+          }
+          span{
+            display: inline-block;
+            margin: 0 2rem;
+            color: #EB5933;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:1024px){
+  .getInTouchWrapper{
+    background-color:#EB59330A;
+    text-align:center;
+    padding: 5rem 0;
+    .getInTouchHeader{
+  
+      h1{
+        font-size: 3rem;
+        font-weight: 400;
+        margin-bottom: .5rem;
+      }
+      p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        width:90%;
+        margin-left: 5%;
+        line-height:45px;
+      }
+    }
+    .getInTouchFormWrapper{
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 3rem;
+  
+      form{
+        width:100%;
+  
+        .inputWrapper{
+          display: flex;
+          justify-content: space-between;
+          align-items:center;
+          margin-bottom: 2rem;
+  
+          input{
+            border: 1px solid transparent;
+            border-bottom: 1px solid black;
+            width: 50%;
+            padding: 1rem .0rem;
+            outline:none;
+            background-color:transparent;
+            font-size: 1.5rem;
+            font-family: 'Poppins', sans-serif;
+            
+  
+            &::placeholder{
+              color: #000000;
+              font-weight: 400;
+            }
+            &:not(:last-child){
+              margin-right: 2rem;
+            }
+          }
+        }
+  
+        .textAreaWrapper{
+          width: 100%;
+  
+          input{
+            border: 1px solid transparent;
+            border-bottom: 1px solid black;
+            width: 100%;
+            padding: 1rem .0rem;
+            outline:none;
+            background-color:transparent;
+            font-size: 1.5rem;
+            font-family: 'Poppins', sans-serif;
+            
+  
+            &::placeholder{
+              color: #000000;
+              font-weight: 400;
+            }
+          }
+        }
+  
+        .submitBtnWrapper{
+          margin-top: 3rem;
+          a{
+            padding: 1rem 3rem;
+            text-decoration: none;
+            background-color: #EB5933;
+            color: #FFFFFF;
+            border-radius: 5px;
+            font-size: 1.5rem;
+          }
+          span{
+            display: inline-block;
+            margin: 0 2rem;
+            color: #EB5933;
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// max-width: 375px
+@media (max-width: 375px){
+  .getInTouchWrapper{
+    background-color:#EB59330A;
+    text-align:center;
+    padding: 5rem 0;
+    .getInTouchHeader{
+  
+      h1{
+        font-size: 4rem;
+        font-weight: 400;
+        margin-bottom: .5rem;
+      }
+      p{
+        font-size: 2.5rem;
+        font-weight: 400;
+        width:90%;
+        margin-left: 5%;
+        line-height:55px;
+      }
+    }
+    .getInTouchFormWrapper{
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 3rem;
+  
+      form{
+        width:100%;
+  
+        .inputWrapper{
+          display: flex;
+          justify-content: space-between;
+          align-items:center;
+          margin-bottom: 2rem;
+  
+          input{
+            border: 1px solid transparent;
+            border-bottom: 1px solid black;
+            width: 50%;
+            padding: 1rem .0rem;
+            outline:none;
+            background-color:transparent;
+            font-size: 2rem;
+            font-family: 'Poppins', sans-serif;
+            
+  
+            &::placeholder{
+              color: #000000;
+              font-weight: 400;
+            }
+            &:not(:last-child){
+              margin-right: 2rem;
+            }
+          }
+        }
+  
+        .textAreaWrapper{
+          width: 100%;
+  
+          input{
+            border: 1px solid transparent;
+            border-bottom: 1px solid black;
+            width: 100%;
+            padding: 1rem .0rem;
+            outline:none;
+            background-color:transparent;
+            font-size: 2rem;
+            font-family: 'Poppins', sans-serif;
+            
+  
+            &::placeholder{
+              color: #000000;
+              font-weight: 400;
+            }
+          }
+        }
+  
+        .submitBtnWrapper{
+          margin-top: 3rem;
+          a{
+            padding: 1rem 3rem;
+            text-decoration: none;
+            background-color: #EB5933;
+            color: #FFFFFF;
+            border-radius: 5px;
+            font-size: 2rem;
+          }
+          span{
+            display: inline-block;
+            margin: 0 2rem;
+            color: #EB5933;
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}

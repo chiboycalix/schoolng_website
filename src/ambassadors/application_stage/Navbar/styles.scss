@@ -1,0 +1,35 @@
+.ambassadorNavWrapper {
+    width: 90%;
+    background: #FFFAF8 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    padding: 3rem 0 .5rem 0;
+    margin-bottom: 0rem;
+    .logoWrapper {
+        img {
+            height: 54px;
+            cursor: pointer;
+        }
+    }
+}
+
+// max-width: 375px
+@media (max-width: 375px) {
+    .ambassadorNavWrapper {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 5%;
+        padding: 3rem 0 7rem 0;
+        margin-bottom: 0rem;
+        .logoWrapper {
+            img {
+                height: 60px;
+            }
+        }
+    }
+}
+

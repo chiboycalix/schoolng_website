@@ -1,0 +1,39 @@
+.appWrapper{
+  width: 100%;
+}
+@media (max-width: 1080px){
+  .appWrapper{
+    width: 125%;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 1024px){
+  .appWrapper{
+    width: 116%;
+  }
+}
+
+@media (max-width: 768px){
+  .appWrapper{
+    width: 122%;
+  }
+}
+
+@media (max-width: 600px){
+  .appWrapper{
+    width: 150%;
+  }
+}
+
+
+@media (max-width: 414px){
+  .appWrapper{
+    width: 175%;
+  }
+}
+@media (max-width: 375px){
+  .appWrapper{
+    width: 290%;
+  }
+}

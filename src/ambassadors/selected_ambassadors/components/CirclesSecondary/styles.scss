@@ -1,0 +1,31 @@
+.circlesSecondary{
+  position: relative;
+
+  .circleSecondaryOne{
+    width: 118.18px;
+    height: 118.18px;
+    border-radius:50%;
+    border: 20px solid #FFF;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+  }
+  .circleSecondaryTwo{
+    width: 74.64px;
+    height: 74.64px;
+    border-radius:50%;
+    border: 15px solid #FFF;
+    position: absolute;
+    top: 7.5rem;
+    left: 9.6rem;
+  }
+  .circleSecondaryThree{
+    width: 145.73px;
+    height: 145.73px;
+    border-radius:50%;
+    border: 20px solid #FFF;
+    position: absolute;
+    top: 13rem;
+    left: 2rem;
+  }
+}
