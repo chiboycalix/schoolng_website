@@ -211,3 +211,49 @@
         }
       }
     }
+
+    @media (max-width:414px){
+      .headersWrapper{
+        padding: 0 5.5rem;
+        display: block;
+        justify-content: space-between;
+        margin-bottom: 10rem;
+      
+        .headersLeft{
+          width: 100%;
+          text-align: center;
+      
+          h1{
+            font-size: 60px;
+            line-height: 70px;
+            margin-bottom: 1rem;
+            span{
+              color: #EB5933;
+            }
+          }
+      
+          p{
+            font-size: 25px;
+            line-height: 50px;
+          }
+      
+          .circlesWrapper{
+            display: flex;
+            margin-left: 0px;
+            margin-top: -200px;
+          }
+        }
+      
+        .headersRight{
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          margin-left:0rem;
+          margin-top: 20rem;
+          
+          img{
+            width: 600px;
+          }
+        }
+      }
+    }

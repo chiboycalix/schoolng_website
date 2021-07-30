@@ -1,6 +1,6 @@
 import './styles.scss';
 import LogoImg from '../../assets/img/logo.png';
-import { useHistory, useLocation, Link } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router-dom';
 import LogoColored from '../../assets/img/logoColored.png'
 
 const NavBar = () => {
@@ -19,7 +19,6 @@ const NavBar = () => {
 
       {
         <div className="contactBtnWrapper">
-          <Link to="/ambassadors">Ambassadors</Link>
           <a href="#contact">Contact</a>
         </div>
       }

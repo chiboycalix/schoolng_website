@@ -1,8 +1,7 @@
 .ambassadorsWrapper{
-  width: 100vw;
   margin-bottom: 5rem;
+  padding: 0 5rem;
   .ambassadorsHeader{
-    padding: 0 5rem;
     margin-bottom: 2rem;
 
     h1{
@@ -16,12 +15,11 @@
     }
   }
   .ambassadors{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 2rem;
     grid-row-gap: 4rem;
     text-align: center;
-    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 
   }
 
@@ -75,10 +73,9 @@
 //1440px
 @media (max-width:1440px){
   .ambassadorsWrapper{
-    width: 100vw;
     margin-bottom: 5rem;
+    padding: 0 5rem;
     .ambassadorsHeader{
-      padding: 0 5rem;
       margin-bottom: 2rem;
   
       h1{
@@ -92,11 +89,11 @@
       }
     }
     .ambassadors{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 2rem;
+      grid-column-gap: 2rem;
+      grid-row-gap: 4rem;
       text-align: center;
-      padding: 0 5rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
   
     }
   
@@ -151,10 +148,9 @@
 // 1280px
 @media (max-width:1280px){
   .ambassadorsWrapper{
-    width: 100vw;
     margin-bottom: 5rem;
+    padding: 0 5rem;
     .ambassadorsHeader{
-      padding: 0 5rem;
       margin-bottom: 2rem;
   
       h1{
@@ -168,11 +164,11 @@
       }
     }
     .ambassadors{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
+      grid-column-gap: 2rem;
+      grid-row-gap: 4rem;
       text-align: center;
-      padding: 0 5rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
   
     }
   
@@ -227,10 +223,9 @@
 // 414px
 @media (max-width:414px){
   .ambassadorsWrapper{
-    width: 100vw;
     margin-bottom: 5rem;
+    padding: 0 5rem;
     .ambassadorsHeader{
-      padding: 0 5rem;
       margin-bottom: 2rem;
   
       h1{
@@ -244,11 +239,11 @@
       }
     }
     .ambassadors{
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 2rem;
+      grid-column-gap: 2rem;
+      grid-row-gap: 4rem;
       text-align: center;
-      padding: 0 5rem;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
   
     }
   
