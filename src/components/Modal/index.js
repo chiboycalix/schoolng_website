@@ -21,9 +21,9 @@ const Modal = ({ isOpen, onClose }) => {
                             <AiOutlineClose className="modal-content-left-icon-wrapper-icon-close" onClick={onClose} size={15} />
                         </div>
 
-                        <p className="modal-content-left-first-paragraph">Become Schooln.ng</p>
-                        <h2 className="modal-content-left-second-paragraph">Student <br /> ambassador program.</h2>
-                        <p className="modal-content-left-third-paragraph ">Applications Starts From 1St Of June To The 30Th of June </p>
+                        <p className="modal-content-left-first-paragraph">Schooln.ng Representatives</p>
+                        <h2 className="modal-content-left-second-paragraph">Student <br /> ambassador</h2>
+                        <p className="modal-content-left-third-paragraph ">Meet to smart minds promoting the Schooln.ng brand in their various campuses</p>
 
                         <NavLink className="modal-content-left-apply-button" to="/ambassadors">Apply Here</NavLink>
                     </div>

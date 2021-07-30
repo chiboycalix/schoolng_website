@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.scss';
-import Ambassador from '../../assets/img/ambassador.png';
+import Ambassador from '../../assets/img/ambImg.png';
+
 
 const Ambassadors = () => {
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
+
   return (
     <div className="ambassadorsSectionWrapper">
       <div className="left">

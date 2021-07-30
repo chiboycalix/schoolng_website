@@ -1,16 +1,20 @@
 .modal {
     z-index: 9999;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 70%;
-    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 1000%;
     outline: none;
+    background-color: transparent;
+
     .modal-content {
         color: #fff;
         display: flex;
         flex-direction: row;
         border: none;
+        padding: 0px !important;
+        width: 80% !important;
         .modal-content-left {
             padding: 2rem 2rem 4.2rem 2rem;
             width: 100%;
@@ -41,12 +45,12 @@
             }
             .modal-content-left-third-paragraph {
                 padding-bottom: 30px;
-                font-size: 20px;
+                font-size: 18px;
             }
         }
         .modal-content-right {
             width: 100%;
-            background: url('../../assets/img/ambassador.png') no-repeat center center;
+            background: url('../../assets/img/amb.png') no-repeat center center;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
