@@ -5,6 +5,7 @@ import Header from './Header';
 import HowItWorks from './HowItWorks';
 import GetInTouch from './GetInTouch';
 import Footer from './../components/Footer';
+import Ambassordors from './Ambassardors'
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <HowItWorks />
       <WithSchoolng />
       <Features />
+      <Ambassordors />
       <GetInTouch />
       <Footer />
     </div>

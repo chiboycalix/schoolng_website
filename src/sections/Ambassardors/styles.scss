@@ -1,0 +1,40 @@
+.ambassadorsSectionWrapper{
+  background-color: #031A2F;
+  padding: 8rem 5rem;
+  color: #fff;
+  display: flex;
+  justify-content:space-between;
+
+  div.left{
+    flex-basis: 60%;
+    h1{
+      font-size: 35px;
+      line-height: 70px;
+      span{
+        color: #EB5933;
+      }
+    }
+    p{
+      font-size: 18px;
+      line-height: 35px;
+      margin: 1.5rem 0 2.5rem 0;
+    }
+      a {
+        background-color: #031A2F;
+        border: 2px solid #fff;
+        color: #fff;
+        border-radius: 5px;
+        padding: 1rem 1rem;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+  }
+  div.right{
+    flex: 1;
+
+    img{
+      width: 600px;
+      height: 450px;
+    }
+  }
+}

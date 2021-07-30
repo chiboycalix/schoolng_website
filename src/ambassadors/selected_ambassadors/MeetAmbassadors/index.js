@@ -25,7 +25,12 @@ const MeetAmbassadors = () => {
       <div className="ambassadors">
         {
           AmbassadorsList.map((ambassador) => {
-            return (<React.Fragment key={ambassador.id}><Ambassador onOpen={() => handleOpenModal(ambassador)} ambassador={ambassador} /></React.Fragment>)
+            return (
+              <React.Fragment
+                key={ambassador.id}>
+                <Ambassador onOpen={() => handleOpenModal(ambassador)} ambassador={ambassador} />
+              </React.Fragment>
+            )
           })
         }
       </div>
