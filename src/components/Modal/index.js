@@ -25,7 +25,7 @@ const Modal = ({ isOpen, onClose }) => {
                         <h2 className="modal-content-left-second-paragraph">Student <br /> ambassador</h2>
                         <p className="modal-content-left-third-paragraph ">Meet to smart minds promoting the Schooln.ng brand in their various campuses</p>
 
-                        <NavLink className="modal-content-left-apply-button" to="/ambassadors">Apply Here</NavLink>
+                        <NavLink className="modal-content-left-apply-button" to="/ambassadors">Meet Ambassadors</NavLink>
                     </div>
                     <div className="modal-content-right"></div>
                 </div>
