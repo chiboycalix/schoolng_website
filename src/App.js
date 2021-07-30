@@ -12,9 +12,9 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" component={Section} exact={true} />
-          <Route path="/ambassadors" component={SelectedAmbassadors} exact={true} />
-          <Route path="/terms-and-conditions" component={TermsAndConditions} exact={true} />
-          <Route path="/privacy-policy" component={PrivacyPolicy} exact={true} />
+          <Route path="/ambassadors" component={SelectedAmbassadors} />
+          <Route path="/terms-and-conditions" component={TermsAndConditions} />
+          <Route path="/privacy-policy" component={PrivacyPolicy} />
         </Switch>
       </Router>
     </div>
