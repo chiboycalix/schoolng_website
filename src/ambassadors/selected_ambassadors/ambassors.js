@@ -43,12 +43,12 @@ export const AmbassadorsList = [
   },
   {
     id: 5,
-    photo: "https://res.cloudinary.com/xyjoe/image/upload/v1627561002/Ambassador/David-Ogoegbunem.jpg",
+    photo: "https://res.cloudinary.com/xyjoe/image/upload/v1627914786/Ambassador/David_Ogoegbunem.jpg",
     username: 'Davidnezer',
     fullname: "David Ogoegbunem",
     department: "Marketing",
     university: "Delta State University, Abraka",
-    bio: "An enthusiastic individual striving for adventure and positive change!"
+    bio: "My name is David Ogoegbunem, A 200L student studying Marketing at Delta State University, Abraka.  I'm enthusiastic and energetic, I love travelling, adventures, scientific experiments."
   },
   {
     id: 6,
