@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.scss';
 import CirclesPrimary from '../components/CirclesPrimary';
-import CirclesSecondary from '../components/CirclesSecondary';
 import AmbassadorImg from '../../../assets/img/becomeA.png'
 
 

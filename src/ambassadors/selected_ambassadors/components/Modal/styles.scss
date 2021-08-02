@@ -1,4 +1,4 @@
-.modal {
+.modalA {
   position: fixed;
   z-index: 1;
   padding-top: 100px;
@@ -10,7 +10,7 @@
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
 
-.modal-content {
+.modal-contentA {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
@@ -18,7 +18,7 @@
   border-radius: 10px;
   width: 50%;
 
-.close {
+.closeA {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -38,7 +38,7 @@
 
 
 @media (max-width: 1024px){
-  .modal {
+  .modalA {
     position: fixed;
     z-index: 1;
     padding-top: 100px;
@@ -50,7 +50,7 @@
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
   
-  .modal-content {
+  .modal-contentA {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
@@ -58,7 +58,7 @@
     border-radius: 10px;
     width: 90%;
   
-  .close {
+  .closeA {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
@@ -70,7 +70,7 @@
       cursor: pointer;
       }
     }
-    .modal-body{
+    .modal-bodyA{
       padding: 2rem 20px 5rem 20px;
       
     }
@@ -80,7 +80,7 @@
 }
 
 @media (max-width: 375px){
-  .modal {
+  .modalA {
     position: fixed;
     z-index: 1;
     padding-top: 100px;
@@ -92,7 +92,7 @@
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
   
-  .modal-content {
+  .modal-contentA {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
@@ -100,7 +100,7 @@
     border-radius: 10px;
     width: 90%;
   
-  .close {
+  .closeA {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
@@ -112,7 +112,7 @@
       cursor: pointer;
       }
     }
-    .modal-body{
+    .modal-bodyA{
       padding: 2rem 20px 5rem 20px;
       font-size: 25px;
       

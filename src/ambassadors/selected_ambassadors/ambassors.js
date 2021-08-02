@@ -1,10 +1,8 @@
-import SmileImg from '../../assets/img/withschoolnimg.png';
-import Ambassador from '../../assets/img/people-left.png'
 
 export const AmbassadorsList = [
   {
     id: 1,
-    photo: 'https://res.cloudinary.com/xyjoe/image/upload/v1627561002/Ambassador/muhammedolarewaju.jpg',
+    photo: 'https://res.cloudinary.com/xyjoe/image/upload/v1627911425/Ambassador/Muhammed_abdulraheem_olarewaju.jpg',
     phone: '+2349036920222',
     email: 'abdulraheemmuhammed451@gmail.com',
     username: 'facilitator',
@@ -70,6 +68,17 @@ export const AmbassadorsList = [
     photo: "https://res.cloudinary.com/xyjoe/image/upload/v1627561000/Ambassador/Esther-Iso.jpg",
     university: "University of Calabar, Calabar.",
     username: "HEYSTAR_ZONE",
+
+  },
+  {
+    id: 8,
+    bio: "My name is ADESOYE DAVID ADENIYI, i am a student of LADOKE AKINTOLA UNIVERSITY OF TECHNOLOGY, Nigeria and i hail from Osun State. I have been passionate about leadership skill and aiming to gain experience opportunity for devise solution to challenges faced by youths and young people around the world since when i was a kid. I was privileged as a secondary school student to play an active role in a leadership position as as (Prefect), so i knew then i wanted to pursue my leadership career, which went on as i gained admission into the university. In my first year as an undergraduate, i worked with an organization known as  SOLVE EDUCATION as a campus director. During my first tenure as an ambassador, i was able to build my portfolio through leadership management in all aspects. My experience with the organization built up my proficiencies in communication skill, critical thinking, emotional intelligence, and effective time management. And also, it made me build a strong relationship with my sponsors, team members, and so on. The most rewarding part of my job as an ambassador was that it made me relate with people of high values, outside and within the campus. However, i would love to be among the shortlisted Schooln.ng Ambassadors.",
+    department: "BASIC MEDICAL SCIENCES,BIOMEDICAL SCIENCE ",
+    email: "adeniyid94@gmail.com",
+    fullname: "ADESOYE DAVID ADENIYI",
+    photo: "https://res.cloudinary.com/xyjoe/image/upload/v1627912066/Ambassador/ADESOYE_DAVID_ADENIYI.jpg",
+    university: "LADOKE AKINTOLA UNIVERSITY OF TECHNOLOGY",
+    username: "David200",
 
   }
 ]

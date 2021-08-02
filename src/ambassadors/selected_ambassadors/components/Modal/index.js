@@ -4,10 +4,10 @@ import './styles.scss';
 
 const Modal = (props) => {
   return (
-    <div className="modal">
-      <div className="modal-content">
-        <span className="close" onClick={props?.onCancel}>&times;</span>
-        <div className="modal-body">
+    <div className="modalA">
+      <div className="modal-contentA">
+        <span className="closeA" onClick={props?.onCancel}>&times;</span>
+        <div className="modal-bodyA">
           {props?.children}
         </div>
       </div>
